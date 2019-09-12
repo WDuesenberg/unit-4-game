@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal</title>
+</head>
+
+<body>
+
+    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+
+    <!-- Note that this div is now empty. We will fill it dynamically -->
+    <div id="crystals"></div>
+
+    <!--JAVASCRIPT-->
+    <!-- ========================================== -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        var targetNumber = 69;
+
+        $("#number-to-guess").text(targetNumber);
+
+        var counter = 0;
+
+        //Now for the hard part. Creating multiple crystals each with their own unique number value.
+
+        // We begin by expanding our array to include four options.
+        var numberOptions = [9, 16, 20, 3];
+
+        // Next we creat a for loop to create crystals for every numberOption.
+        for (var i = 0; i < numberOptions.length; i++) {
+
+            var imageCrystal = $("<img>");
+        }
+    </script>
+
+
+
+</body>
+
+</html>
