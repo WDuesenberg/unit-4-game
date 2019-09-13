@@ -1,14 +1,15 @@
 /* General elements */
 
 body {
-    background-image: url("");
+    background-image: url("./assets/images/background(1).jpeg");
+    background-color: teal;
     text-align: center;
     font-family: fantasy;
     color: purple;
 }
 
 div {
-    background-color: lightseagreen;
+    background-color: rgb(43, 199, 102);
     margin: 10px;
     width: 25%;
 }
@@ -59,6 +60,8 @@ div.instructions {
     float: left;
     width: 15%;
     height: 60px;
+    overflow: auto;
+    object-fit: contain;
 }
 
 .userTotal {
@@ -92,4 +95,22 @@ div.instructions {
 
 #yellow {
     color: yellow;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: lightskyblue
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightgreen
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: lightcoral
+    }
 }
