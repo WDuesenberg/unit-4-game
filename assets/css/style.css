@@ -1,0 +1,95 @@
+/* General elements */
+
+body {
+    background-image: url("");
+    text-align: center;
+    font-family: fantasy;
+    color: purple;
+}
+
+div {
+    background-color: lightseagreen;
+    margin: 10px;
+    width: 25%;
+}
+
+div {
+    border: solid 2px antiquewhite;
+    padding: 10px;
+}
+
+h1,
+h3,
+span {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+ul {
+    list-style: disc inside;
+    text-indent: 20px;
+}
+
+
+/* Specific elements */
+
+div.header,
+div.gems {
+    background-color: lightcyan;
+}
+
+div.header,
+div.instructions {
+    width: 50%,
+}
+
+
+/* Classes */
+
+.numberToMatch,
+.winsAndLosses {
+    float: left;
+    width: 15%;
+    height: 60px;
+}
+
+.userTotal {
+    width: 15%;
+    height: 60px;
+}
+
+.gems {
+    clear: both;
+}
+
+.gemImage {
+    height: 60px;
+    margin: 10px;
+}
+
+
+/* ID's */
+
+#blue {
+    color: darkslateblue;
+}
+
+#green {
+    color: limegreen;
+}
+
+#red {
+    color: lightcoral;
+}
+
+#yellow {
+    color: yellow;
+}
